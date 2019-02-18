@@ -1,0 +1,13 @@
+[Unit]
+Description=yogger
+
+[Service]
+Type=simple
+User=logstash
+Group=logstash
+ExecStart=/opt/yogger/yogger.py
+Restart=always
+WorkingDirectory=/opt/yogger/
+
+[Install]
+WantedBy=multi-user.target

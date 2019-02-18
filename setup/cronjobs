@@ -1,0 +1,2 @@
+* * * * * git -C /opt/yogger/indicators pull &> /dev/null
+
